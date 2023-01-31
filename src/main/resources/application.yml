@@ -1,0 +1,15 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/manage
+    username: root
+    password: 1233ghgg
+
+
+manage:
+  jwt:
+    header: Authorization
+    expire: 604800 #7?????
+    secret: ji8n3439n439n43ld9ne9343fdfer49h
